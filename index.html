@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Note App</title>
+    <link rel="stylesheet" href="css/custom.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <script></script>
+  </head>
+
+  <body>
+    <div class="fixed" id="sidebar">
+      <button id="menuBtn" onclick="toggleDropdown()">☰</button>
+      <ul class="nav-links dropdown" id="navLinks">
+        <div>
+          <h3>My Notes</h3>
+          <ui id="folderList">
+            
+          </ui>
+          <ul id="noteList"></ul>
+        </div>
+      </ul>
+    </div>
+
+    <button id="addBtn">
+      <i class="fa-solid fa-plus"></i>
+      Add Note
+    </button>
+    <div id="main">
+      <!-- <div class="note">
+        <div class="tool">
+          <i class="fa-solid fa-floppy-disk"></i>
+          <i class="fa-solid fa-trash"></i>
+        </div>
+        <textarea placeholder="Write your note here..."></textarea>
+      </div> -->
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
