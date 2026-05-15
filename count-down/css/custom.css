@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-height: 100dvh;
+  background-image: url(https://img.freepik.com/free-photo/top-view-black-friday-sales-elements-arrangement-with-copy-space_23-2148665628.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+#countdown {
+  margin-top: 10px;
+  display: inline-block;
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.time-section {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.time-section span {
+  display: block;
+  font-weight: bold;
+}
+
+#years,
+#months,
+#days,
+#hours,
+#minutes,
+#seconds {
+  font-size: 30px;
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  text-align: center;
+}
